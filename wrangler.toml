@@ -1,0 +1,6 @@
+name = "mtg-wordle"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "DAILY_KV"
+id = "a3ea9a06976c4dd28f2fc204cc25d93b"
