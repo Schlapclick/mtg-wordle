@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // GET /api/daily — returns today's daily card name
 // POST /api/daily — sets today's daily card (requires ADMIN_SECRET)
 //

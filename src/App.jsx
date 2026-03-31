@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect, useCallback } from "react";
 import {
   getRandomCard,
@@ -61,7 +62,7 @@ function Game({ navigate }) {
   const [filters, setFilters] = useState({ sets: [], types: [] });
   const [isDaily, setIsDaily] = useState(false);
   const [dailyDate, setDailyDate] = useState(null);
-  const [dailyCompleted, setDailyCompleted] = useState(false);
+  const [ setDailyCompleted] = useState(false);
 
   const startFreePlay = useCallback(
     async (currentFilters) => {
